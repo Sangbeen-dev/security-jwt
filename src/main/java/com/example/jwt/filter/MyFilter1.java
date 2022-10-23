@@ -10,7 +10,7 @@ public class MyFilter1 implements Filter {
     @Override
     public void doFilter(ServletRequest request
             , ServletResponse response, FilterChain filterChain) throws IOException, ServletException {
-        System.out.println("필터1");
+//        System.out.println("필터1");
         filterChain.doFilter(request, response);
     }
 }
